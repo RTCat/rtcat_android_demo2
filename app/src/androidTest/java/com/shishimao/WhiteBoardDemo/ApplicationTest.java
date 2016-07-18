@@ -1,4 +1,4 @@
-package com.shishimao.whiteboard_demo;
+package com.shishimao.WhiteBoardDemo;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

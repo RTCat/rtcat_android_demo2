@@ -1,4 +1,4 @@
-package com.shishimao.whiteboard_demo;
+package com.shishimao.WhiteBoardDemo;
 
 
 public class Config {

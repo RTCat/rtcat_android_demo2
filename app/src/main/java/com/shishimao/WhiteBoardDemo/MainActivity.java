@@ -1,4 +1,4 @@
-package com.shishimao.whiteboard_demo;
+package com.shishimao.WhiteBoardDemo;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
