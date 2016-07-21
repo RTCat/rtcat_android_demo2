@@ -27,7 +27,13 @@ public class MainActivity extends AppCompatActivity {
         paintView.setAct(this);
 
         cat = new RTCat(this);
-        createSession();
+        cat.addObserver(new RTCat.RTCatObserver() {
+            @Override
+            public void init() {
+                createSession();
+            }
+        });
+        cat.init();
     }
 
     public void createSession(){
